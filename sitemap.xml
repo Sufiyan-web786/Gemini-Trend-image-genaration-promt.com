@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://sufiyan-web786.github.io/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Gemini Prompts Categories -->
+  <url>
+    <loc>https://sufiyan-web786.github.io/realistic-image-prompts/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://sufiyan-web786.github.io/anime-prompts/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://sufiyan-web786.github.io/fantasy-art-prompts/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Individual Prompt Pages -->
+  <url>
+    <loc>https://sufiyan-web786.github.io/gemini-prompt-cyberpunk-city/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://sufiyan-web786.github.io/gemini-prompt-realistic-portrait/</loc>
+    <lastmod>2025-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
