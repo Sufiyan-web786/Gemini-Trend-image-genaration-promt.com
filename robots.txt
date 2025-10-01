@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /index.html/
+Disallow: /temp/
+
+# Sitemap Location
+Sitemap: https://sufiyan-web786.github.io/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 2
