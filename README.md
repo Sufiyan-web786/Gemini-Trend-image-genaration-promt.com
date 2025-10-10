@@ -46,6 +46,31 @@ The key to getting great images is writing good prompts. The more clear and deta
 *   **Simple Prompt:** `"A knight in a forest."`
 *   **Detailed Prompt:** `"A photorealistic portrait of a tired female knight in ornate silver armor. She stands in a sunbeam in an enchanted forest with giant glowing mushrooms. The style is fantasy digital art with dramatic lighting."`
 
+<div class="additional Context-container">
+    <a href="https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/" 
+       target="_blank" 
+       class="additional Context-link" 
+       style="display: inline-block; padding: 10px 20px; background-color: #007cba; color: white; text-decoration: none; border-radius: 5px; margin: 10px 0;">
+        additional Context
+    </a>
+</div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // सभी additional Context लिंक्स को ढूंढें
+    var readMoreLinks = document.querySelectorAll('.additional Context-link, .jump-link a');
+    
+    readMoreLinks.forEach(function(link) {
+        link.href = 'https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/';
+        link.target = '_blank';
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            window.open('https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/', '_blank');
+        });
+    });
+});
+</script>
+
+
 You can imagine which prompt will give a more specific and impressive result.
 
 ## The Many Uses of This Amazing Tool
