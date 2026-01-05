@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Gemini Prompt",
+  "alternateName": "AI Image Creation Hub",
+  "url": "https://geminiprompt.com",
+  "description": "Create stunning AI-generated images with detailed prompts. Explore our gallery of AI art and learn how to use Gemini AI for image generation.",
+  "keywords": "AI image generation, Gemini AI, AI art prompts, artificial intelligence art, image creation, AI gallery",
+  "inLanguage": "en-US",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Gemini Prompt",
+    "url": "https://geminiprompt.com"
+  },
+  "copyrightYear": "2023",
+  "creator": {
+    "@type": "Organization",
+    "name": "Gemini Prompt",
+    "url": "https://geminiprompt.com"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://geminiprompt.com/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  },
+  "sameAs": [
+    "https://twitter.com/geminiprompt",
+    "https://facebook.com/geminiprompt",
+    "https://instagram.com/geminiprompt",
+    "https://pinterest.com/geminiprompt",
+    "https://youtube.com/@geminiprompt"
+  ]
+}
