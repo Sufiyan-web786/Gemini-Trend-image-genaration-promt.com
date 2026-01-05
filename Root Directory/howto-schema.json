@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to Create AI Images with Gemini AI",
+  "description": "Step-by-step guide to creating stunning AI-generated images using Gemini AI with effective prompts",
+  "image": {
+    "@type": "ImageObject",
+    "url": "https://geminiprompt.com/images/how-to-ai-images.jpg",
+    "height": "406",
+    "width": "720"
+  },
+  "estimatedCost": {
+    "@type": "MonetaryAmount",
+    "currency": "USD",
+    "value": "0"
+  },
+  "supply": [
+    {
+      "@type": "HowToSupply",
+      "name": "Gemini AI Access"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Creative Ideas"
+    },
+    {
+      "@type": "HowToSupply",
+      "name": "Text Prompts"
+    }
+  ],
+  "tool": [
+    {
+      "@type": "HowToTool",
+      "name": "Gemini AI Platform"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Internet Connection"
+    },
+    {
+      "@type": "HowToTool",
+      "name": "Web Browser"
+    }
+  ],
+  "step": [
+    {
+      "@type": "HowToStep",
+      "name": "Craft Your Prompt",
+      "text": "Create a detailed, descriptive prompt that clearly communicates your vision. Include specific details about style, composition, colors, and mood.",
+      "image": "https://geminiprompt.com/images/step1.jpg",
+      "url": "https://geminiprompt.com/how-it-works#step1"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Generate Image",
+      "text": "Use your prompt in Gemini AI to generate your image. Experiment with different phrasings and details to refine your results.",
+      "image": "https://geminiprompt.com/images/step2.jpg",
+      "url": "https://geminiprompt.com/how-it-works#step2"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Refine and Iterate",
+      "text": "Analyze the generated image and make adjustments to your prompt. Try different styles, lighting conditions, or artistic references.",
+      "image": "https://geminiprompt.com/images/step3.jpg",
+      "url": "https://geminiprompt.com/how-it-works#step3"
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Share & Inspire",
+      "text": "Share your successful prompts and images with the community to help others learn and get inspired for their own creations.",
+      "image": "https://geminiprompt.com/images/step4.jpg",
+      "url": "https://geminiprompt.com/how-it-works#step4"
+    }
+  ],
+  "totalTime": "PT10M",
+  "author": {
+    "@type": "Organization",
+    "name": "Gemini Prompt"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gemini Prompt",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://geminiprompt.com/logo.png"
+    }
+  }
+}
