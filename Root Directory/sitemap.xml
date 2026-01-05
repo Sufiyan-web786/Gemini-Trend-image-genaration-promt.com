@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <url>
+        <loc>https://geminiprompt.com/</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://geminiprompt.com/images/logo.png</image:loc>
+            <image:title>Gemini Prompt - AI Image Creation Hub</image:title>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/gallery</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://geminiprompt.com/bike.jpg</image:loc>
+            <image:title>Stylish Rider AI Image</image:title>
+            <image:caption>AI generated image of stylish rider with motorcycle</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://geminiprompt.com/boy.jpg</image:loc>
+            <image:title>Golden Hour Portrait AI Image</image:title>
+            <image:caption>AI generated portrait during golden hour</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://geminiprompt.com/man.jpg</image:loc>
+            <image:title>Photographer in Nature AI Image</image:title>
+            <image:caption>AI generated image of photographer in nature</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://geminiprompt.com/main.jpg</image:loc>
+            <image:title>Urban Style AI Image</image:title>
+            <image:caption>AI generated urban style portrait</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://geminiprompt.com/mean.jpg</image:loc>
+            <image:title>Steampunk Workshop AI Image</image:title>
+            <image:caption>AI generated steampunk workshop scene</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://geminiprompt.com/girl.jpg</image:loc>
+            <image:title>Dreamy Portrait AI Image</image:title>
+            <image:caption>AI generated dreamy portrait with rose</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/about</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/how-it-works</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/ai-art-guide</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/tutorials</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/prompt-library</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/privacy-policy</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/terms-of-service</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/contact</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    
+    <!-- Blog Posts (Future Content) -->
+    <url>
+        <loc>https://geminiprompt.com/blog/how-to-write-ai-prompts</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/blog/best-ai-image-tools-2023</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://geminiprompt.com/blog/gemini-ai-tutorial</loc>
+        <lastmod>2023-12-30</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+</urlset>
