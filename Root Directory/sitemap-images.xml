@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <url>
+        <loc>https://geminiprompt.com/gallery</loc>
+        <image:image>
+            <image:loc>https://geminiprompt.com/bike.jpg</image:loc>
+            <image:title>Stylish Rider AI Image - Gemini Prompt</image:title>
+            <image:caption>AI generated image of stylish young man with black Yamaha R15 motorcycle</image:caption>
+            <image:geo_location>Creative City, US</image:geo_location>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://geminiprompt.com/boy.jpg</image:loc>
+            <image:title>Golden Hour Portrait AI Image - Gemini Prompt</image:title>
+            <image:caption>Ultra-realistic 4K portrait of young Indian man during golden hour</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://geminiprompt.com/man.jpg</image:loc>
+            <image:title>Photographer in Nature AI Image - Gemini Prompt</image:title>
+            <image:caption>AI generated image of photographer with DSLR camera in natural setting</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://geminiprompt.com/main.jpg</image:loc>
+            <image:title>Urban Style AI Image - Gemini Prompt</image:title>
+            <image:caption>AI generated urban style portrait against stone and brick background</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://geminiprompt.com/mean.jpg</image:loc>
+            <image:title>Steampunk Workshop AI Image - Gemini Prompt</image:title>
+            <image:caption>AI generated detailed steampunk inventor's workshop scene</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+        
+        <image:image>
+            <image:loc>https://geminiprompt.com/girl.jpg</image:loc>
+            <image:title>Dreamy Portrait AI Image - Gemini Prompt</image:title>
+            <image:caption>AI generated dreamy portrait of woman with red rose, ultra-realistic</image:caption>
+            <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+        </image:image>
+    </url>
+    
+</urlset>
