@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is AI image generation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "AI image generation is the process of creating visual content using artificial intelligence algorithms. Tools like Gemini AI can generate stunning images based on text prompts, allowing anyone to create professional-quality artwork without needing traditional artistic skills."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I write effective AI image prompts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "To write effective AI image prompts, include these key elements: 1) Clear subject description, 2) Artistic style specification, 3) Lighting conditions, 4) Composition details, 5) Color schemes, 6) Specific details. Use descriptive adjectives and reference specific art styles for better results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Gemini AI free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gemini AI offers both free and paid tiers. The free version allows basic image generation with certain limitations, while premium plans offer higher resolution, faster generation, and additional features. Check the official Gemini AI website for current pricing and plans."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use AI-generated images commercially?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The commercial use rights for AI-generated images depend on the specific AI platform's terms of service. Some platforms allow commercial use, while others have restrictions. Always check the terms of service of the AI tool you're using and consider copyright implications for your specific use case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the best practices for AI image generation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Best practices include: 1) Use detailed and specific prompts, 2) Experiment with different styles, 3) Reference specific artists or art movements, 4) Include technical photography terms, 5) Iterate and refine your prompts, 6) Study successful examples from communities like ours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does it take to generate an AI image?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Generation time varies based on the AI model, image complexity, and server load. Simple images may take 10-30 seconds, while complex, high-resolution images can take 1-2 minutes. Premium plans typically offer faster generation times."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I edit AI-generated images?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, AI-generated images can be edited using traditional photo editing software like Photoshop, GIMP, or online editors. You can also use AI-powered editing tools for enhancements, color correction, background removal, and other modifications."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What image formats are supported?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most AI image generators output standard image formats like JPEG, PNG, and sometimes WebP. Higher-tier plans may offer lossless formats like PNG or TIFF. Check the specific AI platform's documentation for supported formats and maximum resolutions."
+      }
+    }
+  ]
+}
