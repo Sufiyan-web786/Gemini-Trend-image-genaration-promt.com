@@ -1321,37 +1321,7 @@
   };
 </script>
             
-            // Focus management for accessibility
-            const skipLink = document.querySelector('a[href="#main-content"]');
-            if (skipLink) {
-                skipLink.addEventListener('click', function(e) {
-                    const mainContent = document.getElementById('main-content');
-                    if (mainContent) {
-                        e.preventDefault();
-                        mainContent.setAttribute('tabindex', '-1');
-                        mainContent.focus();
-                        setTimeout(() => mainContent.removeAttribute('tabindex'), 1000);
-                    }
-                });
-            }
             
-            // Add keyboard navigation for gallery items
-            document.querySelectorAll('.gallery-item').forEach(item => {
-                item.addEventListener('keydown', function(e) {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                        e.preventDefault();
-                        const copyBtn = this.querySelector('.copy-btn');
-                        if (copyBtn) copyBtn.click();
-                    }
-                });
-            });
-        });
-        
-        // Load non-critical CSS
-        window.onload = function() {
-            const link = document.querySelector('link[media="print"]');
-            if (link) link.media = 'all';
-        };
     </script>
 </body>
 </html>
