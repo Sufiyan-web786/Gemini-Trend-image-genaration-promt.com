@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="google-site-verification" content="PdSnx_ING1qchkqgovSNkGXcOZgtz_uc1tSw44lRBXU" />
     <meta charset="UTF-8">
-    <meta name="viewport" 
-
-	    <!-- Enhanced SEO Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="PdSnx_ING1qchkqgovSNkGXcOZgtz_uc1tSw44lRBXU" />
+    
+    <!-- Enhanced SEO Meta Tags -->
     <title>Gemini Prompt - AI Image Creation Hub | AI Art Prompts & Examples</title>
     <meta name="description" content="Discover stunning AI-generated images with Gemini Prompt. Learn how to create amazing AI art with detailed prompts. Gallery, tutorials, and AI image generation tips.">
-    <meta name="keywords" content="AI image generation, Gemini AI, AI art prompts, artificial intelligence art, image creation, AI gallery">
+    <meta name="keywords" content="AI image generation, Gemini AI, AI art prompts, artificial intelligence art, image creation, AI gallery, Gemini AI प्रॉम्प्ट हिंदी, जेमिनी एआई कीवर्ड, Google Gemini हिंदी गाइड, प्रॉम्प्ट इंजीनियरिंग हिंदी">
     <meta name="author" content="Gemini Prompt">
     <meta name="robots" content="index, follow">
     
@@ -17,7 +17,7 @@
     <meta property="og:description" content="Create stunning AI-generated images with detailed prompts and examples.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/">
-    <meta property="og:image" content="https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//images/og-image.jpg">
+    <meta property="og:image" content="https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/images/og-image.jpg">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -37,26 +37,27 @@
       "url": "https://geminiprompt.com",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//search?q={search_term_string}",
+        "target": "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
-	</script>
-	
-    content="width=device-width, initial-scale=1.0">
-        <title>Gemini Prompt - AI Image Creation Hub</title>
-  <link rel="icon" href="logo.webp">  <style>
-        /* Global Styles */
+    </script>
+    
+    <link rel="icon" href="logo.webp" type="image/webp">
+    
+    <!-- Inline Critical CSS -->
+    <style>
+        /* Critical CSS for initial render */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         
         body {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            background: #1a1a2e;
             color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
         }
         
@@ -64,6 +65,18 @@
             max-width: 1400px;
             margin: 0 auto;
             padding: 0 20px;
+        }
+        
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
         }
         
         /* Header Styles */
@@ -88,26 +101,7 @@
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-        
-        nav ul li {
-            margin-left: 30px;
-        }
-        
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-        
-        nav ul li a:hover {
-            color: #6a11cb;
+            background-clip: text;
         }
         
         /* Hero Section */
@@ -118,18 +112,12 @@
         }
         
         .hero h1 {
-            font-size: 4rem;
+            font-size: 3rem;
             margin-bottom: 20px;
             background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-        }
-        
-        .hero p {
-            font-size: 1.5rem;
-            max-width: 800px;
-            margin: 0 auto 40px;
-            color: #b8b8b8;
+            background-clip: text;
         }
         
         .cta-button {
@@ -142,1378 +130,727 @@
             font-weight: 600;
             font-size: 1.2rem;
             transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
         }
         
-        .cta-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(106, 17, 203, 0.4);
+        /* Lazy loading styles */
+        .lazy-load {
+            opacity: 0;
+            transition: opacity 0.3s ease-in;
         }
         
-        /* Gallery Section */
-        .gallery {
-            padding: 80px 0;
+        .lazy-load.loaded {
+            opacity: 1;
         }
         
-        .section-title {
-            text-align: center;
-            font-size: 2.5rem;
-            margin-bottom: 50px;
-            position: relative;
-        }
-        
-        .section-title:after {
-            content: '';
-            display: block;
-            width: 100px;
-            height: 4px;
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            margin: 10px auto;
-            border-radius: 2px;
-        }
-        
+        /* Gallery Grid */
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
             gap: 30px;
-        }
-        
-        .gallery-item {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            overflow: hidden;
-            transition: transform 0.3s, box-shadow 0.3s;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        
-        .gallery-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-        }
-        
-        .gallery-image {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        
-        .gallery-content {
-            padding: 20px;
-        }
-        
-        .gallery-title {
-            font-size: 1.3rem;
-            margin-bottom: 10px;
-            color: #fff;
-        }
-        
-        .gallery-prompt {
-            background: rgba(0, 0, 0, 0.3);
-            padding: 15px;
-            border-radius: 10px;
-            font-size: 0.9rem;
-            color: #e0e0e0;
-            margin-top: 15px;
-            border-left: 3px solid #6a11cb;
-            position: relative;
-        }
-        
-        /* Copy Button Styles */
-        .copy-btn {
-            background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 0.8rem;
-            font-weight: 500;
-            margin-top: 10px;
-            transition: all 0.3s;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-        
-        .copy-btn:hover {
-            background: linear-gradient(90deg, #5a0db5 0%, #1c68e8 100%);
-            transform: translateY(-2px);
-        }
-        
-        .copy-btn.copied {
-            background: #4CAF50;
-        }
-        
-        .copy-btn svg {
-            width: 14px;
-            height: 14px;
-        }
-        
-        /* About Section */
-        .about {
-            padding: 80px 0;
-            background: rgba(0, 0, 0, 0.3);
-        }
-        
-        .about-content {
-            display: flex;
-            align-items: center;
-            gap: 50px;
-        }
-        
-        .about-text {
-            flex: 1;
-        }
-        
-        .about-text h2 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-        }
-        
-        .about-text p {
-            margin-bottom: 20px;
-            font-size: 1.1rem;
-            color: #b8b8b8;
-        }
-        
-        .about-image {
-            flex: 1;
-            text-align: center;
-        }
-        
-        .about-image img {
-            max-width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-        }
-        
-        /* How It Works Section */
-        .how-it-works {
-            padding: 80px 0;
-        }
-        
-        .steps {
-            display: flex;
-            justify-content: space-between;
-            gap: 30px;
             margin-top: 50px;
         }
-        
-        .step {
-            flex: 1;
-            text-align: center;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 15px;
-            transition: transform 0.3s;
-        }
-        
-        .step:hover {
-            transform: translateY(-10px);
-        }
-        
-        .step-icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            color: #6a11cb;
-        }
-        
-        .step h3 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-        }
-        
-        /* Footer */
-        footer {
-            background: rgba(0, 0, 0, 0.8);
-            padding: 50px 0 20px;
-            text-align: center;
-        }
-        
-        .footer-content {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 30px;
-        }
-        
-        .footer-section {
-            flex: 1;
-            text-align: left;
-        }
-        
-        .footer-section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 20px;
-            color: #6a11cb;
-        }
-        
-        .footer-section ul {
-            list-style: none;
-        }
-        
-        .footer-section ul li {
-            margin-bottom: 10px;
-        }
-        
-        .footer-section ul li a {
-            color: #b8b8b8;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        
-        .footer-section ul li a:hover {
-            color: #6a11cb;
-        }
-        
-        .copyright {
-            padding-top: 20px;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            color: #b8b8b8;
-            font-size: 0.9rem;
-        }
-        
-        /* Responsive Design */
-        @media (max-width: 992px) {
-            .about-content {
-                flex-direction: column;
-            }
-            
-            .steps {
-                flex-direction: column;
-            }
-            
-            .footer-content {
-                flex-direction: column;
-                gap: 30px;
-            }
-            
-            .footer-section {
-                text-align: center;
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .header-content {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            nav ul {
-                margin-top: 20px;
-                justify-content: center;
-            }
-            
-            nav ul li {
-                margin: 0 15px;
-            }
-            
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-            
-            .hero p {
-                font-size: 1.2rem;
-            }
-        }
     </style>
+    
+    <!-- Deferred CSS -->
+    <link rel="stylesheet" href="styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
 </head>
 <body>
-    <!-- Header -->
-    <header>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only">Skip to main content</a>
+    
+    <header role="banner">
         <div class="container">
             <div class="header-content">
-                <div class="Gemini Prompt"></div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                <nav>
+                <h1 class="logo" aria-label="Gemini Prompt">Gemini Prompt</h1>
+                <nav role="navigation" aria-label="Main navigation">
                     <ul>
-                        <li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <h1> Viral Gemini AI Prompts</h1>
-            <p class="tagline">अगर आप AI tools, ChatGPT या Gemini AI से creative और viral content बनाना चाहते हैं, तो यह ब्लॉग आपके लिए है।</p>
-            <p>बस इन prompts को copy-paste करें और अपने AI tool में डालें।</p>
-        </header>
-        
-        <section class="intro">
-            <h2>Gemini AI क्या है?</h2>
-            <p>Gemini AI एक advanced AI image और content generation tool है, जो आपको unique visuals और creative ideas बनाने में मदद करता है। Social media पर viral content बनाने के लिए Gemini AI prompts का सही इस्तेमाल करना बेहद जरूरी है।</p>
-		</section>
-          
-            <div class="gallery-grid">
-                <!-- Image 1 -->
-                <div class="gallery-item">
-                    <img src="bike.png" width="380" alt="Man with Yamaha R15 bike" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Stylish Rider</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A stylish young man posing confidently with a sleek black Yamaha R15 bike, leaning casually with one hand on the bike. Wearing a full black outfit – jacket, t-shirt, and pants – along with white Nike sneakers. Stylish hairstyle with sunglasses and a pendant necklace. Background slightly blurred with muted tones, giving a cinematic and dramatic vibe. Soft lighting, high detail, realistic photography style, modern streetwear aesthetic."
-                        </div>
-                        <button class="copy-btn" data-prompt='A stylish young man posing confidently with a sleek black Yamaha R15 bike, leaning casually with one hand on the bike. Wearing a full black outfit – jacket, t-shirt, and pants – along with white Nike sneakers. Stylish hairstyle with sunglasses and a pendant necklace. Background slightly blurred with muted tones, giving a cinematic and dramatic vibe. Soft lighting, high detail, realistic photography style, modern streetwear aesthetic.'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                 </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-                
-                <!-- Image 2 -->
-                <div class="gallery-item">
-                    <img src="boy.jpg" width="380" alt="AI-generated digital art of [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Golden Hour Portrait</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in warm golden-hour sunlight. He wears a crisp black linen shirt, slightly unbuttoned at the top, paired with tailored black trousers. His hands rest in his pockets, giving a confident yet relaxed vintage look. The background wall is illuminated with artistic window shadows, creating a cinematic and dramatic atmosphere. His hair is styled in a slightly tousled, natural way, with sunlight catching the edges. The overall aesthetic is cinematic, retro, and editorial with warm tones, subtle grain, and timeless masculine elegance."
-                        </div>
-                        <button class="copy-btn" data-prompt='Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in warm golden-hour sunlight. He wears a crisp black linen shirt, slightly unbuttoned at the top, paired with tailored black trousers. His hands rest in his pockets, giving a confident yet relaxed vintage look. The background wall is illuminated with artistic window shadows, creating a cinematic and dramatic atmosphere. His hair is styled in a slightly tousled, natural way, with sunlight catching the edges. The overall aesthetic is cinematic, retro, and editorial with warm tones, subtle grain, and timeless masculine elegance.'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                    <div><script async="async" data-cfasync="false" src="//pl27752147.revenuecpmgate.com/732c06d3694e6c77be151089b4e38328/invoke.js"></script>
-<div id="container-732c06d3694e6c77be151089b4e38328"></div></div>
-                </div>
-                <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script></div>
-                
-                <!-- Image 3 -->
-                <div class="gallery-item">
-                    <img src="man.png" width="380" alt="AI-created illustration of [prompt description]" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Photographer in Nature</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A young person standing confidently outdoors on a large tree trunk, holding a professional DSLR camera in one hand. Wearing a stylish black outfit: loose half-sleeve black t-shirt with a design on the chest, slim-fit black pants, and black sneakers with white soles. Hairstyle is voluminous and neatly styled. The background is softly blurred with green and white tones, creating a bokeh effect. The photo has a smooth, edited, high-definition look, with slightly enhanced colors and a polished, fashion-style portrait effect."
-                        </div>
-                        <button class="copy-btn" data-prompt='A young person standing confidently outdoors on a large tree trunk, holding a professional DSLR camera in one hand. Wearing a stylish black outfit: loose half-sleeve black t-shirt with a design on the chest, slim-fit black pants, and black sneakers with white soles. Hairstyle is voluminous and neatly styled. The background is softly blurred with green and white tones, creating a bokeh effect. The photo has a smooth, edited, high-definition look, with slightly enhanced colors and a polished, fashion-style portrait effect.'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                 </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                <div>
-                 <body>   
-                     <script type="text/javascript">
-    var url = 'https://www.revenuecpmgate.com/w3h9tuun?key=561590938519e45835051c5c13f7e43d';
-    var d = document.createElement('script');
-    d.src = url;
-    document.getElementsByTagName('head')[0].appendChild(d);
-</script>
-</head>
- </div>
-                <!-- Image 4 -->
-                <div class="gallery-item">
-                    <img src="main.png" width="380" alt="Generated artwork: [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Urban Style</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "Create a photo of me posing against a dark, urban background with stone and brick elements, similar to the provided image. I should be leaning against a low stone wall or structure, looking towards the camera side with a confidence. I should be wearing a black loose Shirt, black cargos, and black and white colour shoes. The lighting should be natural and slightly diffused, giving a moody yet clear feel. The overall style should be sophisticated and modern. left hand touching the hair."
-                        </div>
-                        <button class="copy-btn" data-prompt='Create a photo of me posing against a dark, urban background with stone and brick elements, similar to the provided image. I should be leaning against a low stone wall or structure, looking towards the camera side with a confidence. I should be wearing a black loose Shirt, black cargos, and black and white colour shoes. The lighting should be natural and slightly diffused, giving a moody yet clear feel. The overall style should be sophisticated and modern. left hand touching the hair.'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                
-                <!-- Image 5 -->
-                <div class="gallery-item">
-                    <img src="mean.png" width="380" alt="AI art creation: [prompt description]
-						" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Steampunk Workshop</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect red wine color Pinteresty aesthetic retro shirt with white pant and holding a white rose flower in hands. It must feel like a 90s movie and romanticising windy environment.
-
-The boy is standing against a solid wall deep shadows and contrast drama creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on her face is moody, calm yet happy and introspective.image size 4:5"                 </div>
-                        <button class="copy-btn" data-prompt= "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect red wine color Pinteresty aesthetic retro shirt with white pant and holding a white rose flower in hands. It must feel like a 90s movie and romanticising windy environment.
-
-The boy is standing against a solid wall deep shadows and contrast drama creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on her face is moody, calm yet happy and introspective.image size 4:5." 
-                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                                    </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript"> 	atOptions = { 		'key' : '70117e21f863d919167763115296cc70', 		'format' : 'iframe', 		'height' : 50, 		'width' : 320, 		'params' : {} 	}; </script> <script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-                </div>
-                
-                <!-- Image 6 -->
-                <div class="gallery-item">
-                    <img src="girl.jpg" width="380" alt="AI generated image of [prompt] - artificial intelligence artwork
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">Elegant Portrait</h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "ultra-realistic portrait of a young woman in an off-shoulder black outfit, holding a single red rose. She gazes slightly upward with a dreamy, thoughtful expression. Soft circular spotlight on the wall behind her creates dramatic shadows and a stylish editorial mood. Ultra HD, sharp details, cinematic fashion photography aesthetic. Aspect ratio: 9:16 (vertical)."
-                        </div>
-                        <button class="copy-btn" data-prompt='ultra-realistic portrait of a young woman in an off-shoulder black outfit, holding a single red rose. She gazes slightly upward with a dreamy, thoughtful expression. Soft circular spotlight on the wall behind her creates dramatic shadows and a stylish editorial mood. Ultra HD, sharp details, cinematic fashion photography aesthetic. Aspect ratio: 9:16 (vertical).'>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h1 id="hero-title">AI Image Creation Hub</h1>
+                <p>Discover stunning AI-generated images with detailed prompts and examples</p>
+                <a href="#gallery" class="cta-button">Explore Gallery</a>
             </div>
-        </div>
-    </section>
-    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div>
-    
-     <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="diwali.jpg" width="380" alt="Man with Yamaha R15 bike" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">         </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A beautiful young Indian woman in traditional festive attire, wearing a red stylish sleeveless blouse and a cream lehenga with bright red floral prints. She is sitting gracefully, holding a decorated brass thali filled with lit diyas (oil lamps) in both hands. Her head is slightly tilted, with a gentle smile and expressive eyes looking towards the camera. She has long wavy hair styled to one side, adorned with a maang tikka, earrings, and golden bangles. The background."
-                    </div>
-                        <button class="copy-btn" data-prompt= "A beautiful young Indian woman in traditional festive attire, wearing a red stylish sleeveless blouse and a cream lehenga with bright red floral prints. She is sitting gracefully, holding a decorated brass thali filled with lit diyas (oil lamps) in both hands. Her head is slightly tilted, with a gentle smile and expressive eyes looking towards the camera. She has long wavy hair styled to one side, adorned with a maang tikka, earrings, and golden bangles. The background."
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-           <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>     
-               <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="mn.jpg" width="380" alt="AI generated image of [prompt] - artificial intelligence artwork
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">        </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "Ultra-realistic 4K portrait of a young Indian man,
-keeping the uploaded face with 100% accuracy. He
-is standing casually against a plain textured wall,
-bathed in soft golden-hour sunlight that creates
-dramatic warm shadows. He wears a crisp white
-linen shirt, slightly unbuttoned at the top, paired
-with high-waisted cream trousers. His hands rest in
-his pockets, giving a relaxed yet confident retro
-look. His hair is styled in a tousled, natural way,
-with sunlight catching the edges. The aesthetic is
-cinematic, vintage, and editorial, with warm tones,
-soft grain, and timeless masculine elegance."
-                    </div>
-                        <button class="copy-btn" data-prompt= "Ultra-realistic 4K portrait of a young Indian man,
-keeping the uploaded face with 100% accuracy. He
-is standing casually against a plain textured wall,
-bathed in soft golden-hour sunlight that creates
-dramatic warm shadows. He wears a crisp white
-linen shirt, slightly unbuttoned at the top, paired
-with high-waisted cream trousers. His hands rest in
-his pockets, giving a relaxed yet confident retro
-look. His hair is styled in a tousled, natural way,
-with sunlight catching the edges. The aesthetic is
-cinematic, vintage, and editorial, with warm tones,
-soft grain, and timeless masculine elegance."
-                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                
-                
+        </section>
 
-                <!-- Image 1 -->
-                <div class="gallery-item">
-                    <img src="edt.webp" width="380" alt="[Prompt description] - AI created digital art
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">        </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>  "Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations."
-                       </div>
-                        <button class="copy-btn" data-prompt= "Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations."
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                 
-                  <!-- Image 1 -->
-                <div class="gallery-item">
-                    <img src="hand.jpg" width="380" alt="Man with Yamaha R15 bike" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">        </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>  "A rugged, stylish man with Face with the face from the uploaded image, keeping the facial features exactly the same, and voluminous wavy hair styled back, wearing round dark sunglasses and a white open-collar shirt. He has a prominent black scorpion tattoo on the left side of his neck and wears layered black chains around his neck. The lighting is soft and warm, highlighting his side profile with a serious expression. The background is an indoor setting with blurred wooden wardrobe doors, creating a casual, intimate atmosphere."
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery" aria-labelledby="gallery-title">
+            <div class="container">
+                <h2 id="gallery-title" class="section-title">AI Art Gallery</h2>
+                <div class="gallery-grid">
 
+					               <!-- Image 1: bike.png -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="bike.png" 
+                            alt="Stylish young man with Yamaha R15 bike in black outfit" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Street Style Rider</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A stylish young man posing confidently with a sleek black Yamaha R15 bike, leaning casually with one hand on the bike. Wearing a full black outfit – jacket, t-shirt, and pants – along with white Nike sneakers. Stylish hairstyle with sunglasses and a pendant necklace. Background slightly blurred with muted tones, giving a cinematic and dramatic vibe. Soft lighting, high detail, realistic photography style, modern streetwear aesthetic."
+                            </div>
+                            <button class="copy-btn" data-prompt='A stylish young man posing confidently with a sleek black Yamaha R15 bike, leaning casually with one hand on the bike. Wearing a full black outfit – jacket, t-shirt, and pants – along with white Nike sneakers. Stylish hairstyle with sunglasses and a pendant necklace. Background slightly blurred with muted tones, giving a cinematic and dramatic vibe. Soft lighting, high detail, realistic photography style, modern streetwear aesthetic.' aria-label="Copy prompt for Street Style Rider">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
                         </div>
-                        <button class="copy-btn" data-prompt=  "A rugged, stylish man with Face with the face from the uploaded image, keeping the facial features exactly the same, and voluminous wavy hair styled back, wearing round dark sunglasses and a white open-collar shirt. He has a prominent black scorpion tattoo on the left side of his neck and wears layered black chains around his neck. The lighting is soft and warm, highlighting his side profile with a serious expression. The background is an indoor setting with blurred wooden wardrobe doors, creating a casual, intimate atmosphere."
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                
-                <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="pnt.jpg" width="380" alt="Custom AI artwork: [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">        </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A hyper-realistic scene featuring a 1/5 scale commercialized figurine of the man from the uploaded photo. The figurine is realistic, posed standing on a round transparent acrylic base, placed on a computer desk. Next to the desk is the real-life version of the same man wearing the same attire as in the reference photo, cleaning the figurine carefully with a fine brush. The environment is a modern styled studio room, brightly lit, with shelves in the background holding a collection of toys."                    </div>
-                        <button class="copy-btn" data-prompt=  "A hyper-realistic scene featuring a 1/5 scale commercialized figurine of the man from the uploaded photo. The figurine is realistic, posed standing on a round transparent acrylic base, placed on a computer desk. Next to the desk is the real-life version of the same man wearing the same attire as in the reference photo, cleaning the figurine carefully with a fine brush. The environment is a modern styled studio room, brightly lit, with shelves in the background holding a collection of toys."                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                
-                 <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="habibi.jpg" width="380" alt="Machine learning generated image of [prompt]
-						" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A portrait of me wearing a traditional white hijab with golden and lace embroidery along the borders, styled neatly around the head and shoulders. I am smiling softly, with natural makeup, red lipstick, and bright eyes. I am wearing an elegant gold necklace with a large turquoise green gemstone pendant. Background     is filled with red roses and green leaves, softly blurred to highlight me. High-resolution, realistic, vibrant, professional photography style."
-                            
-                   </div>
-                        <button class="copy-btn" data-prompt= "A portrait of me wearing a traditional white hijab with golden and lace embroidery along the borders, styled neatly around the head and shoulders. I am smiling softly, with natural makeup, red lipstick, and bright eyes. I am wearing an elegant gold necklace with a large turquoise green gemstone pendant. Background is filled with red roses and green leaves, softly blurred to highlight me. High-resolution, realistic, vibrant, professional photography style."
-                            
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                
-                
-               <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="reyaj.webp" width="380" alt="AI image generator creating digital artwork
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "Create an edited portrait of a young man wearing a stylish maroon blazer and a cream shirt, with fashionable hair and a soft, professional background. Enhance the colors for a vibrant look, and add subtle text overlays near the bottom: 'PROFACT BEAUTI - Innocent look Boy'. Maintain a modern, social-media-ready aesthetic."
-                   </div>
-                        <button class="copy-btn" data-prompt= "Create an edited portrait of a young man wearing a stylish maroon blazer and a cream shirt, with fashionable hair and a soft, professional background. Enhance the colors for a vibrant look, and add subtle text overlays near the bottom: 'PROFACT BEAUTI - Innocent look Boy'. Maintain a modern, social-media-ready aesthetic."
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                </div>
-                <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-
-              
-                <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="king.webp" width="380" alt="Custom AI art creation platform interface
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A stylish young man wearing sunglasses, a patterned red shirt, and red pants, sitting confidently in a red armchair. The background is solid red, and the name "SUFIYAN" is written in bold, red capital letters at the top."
-                   </div>
-                        <button class="copy-btn" data-prompt= "A stylish young man wearing sunglasses, a patterned red shirt, and red pants, sitting confidently in a red armchair. The background is solid red, and the name (SUFIYAN) is written in bold, red capital letters at the top."
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
+                    </article>
                     
-                      <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
+                    <!-- Image 2: boy.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="boy.jpg" 
+                            alt="Ultra-realistic portrait of young Indian man in black linen shirt against textured wall" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Golden Hour Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in warm golden-hour sunlight. He wears a crisp black linen shirt, slightly unbuttoned at the top, paired with tailored black trousers. His hands rest in his pockets, giving a confident yet relaxed vintage look. The background wall is illuminated with artistic window shadows, creating a cinematic and dramatic atmosphere. His hair is styled in a slightly tousled, natural way, with sunlight catching the edges. The overall aesthetic is cinematic, retro, and editorial with warm tones, subtle grain, and timeless masculine elegance."
+                            </div>
+                            <button class="copy-btn" data-prompt='Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in warm golden-hour sunlight. He wears a crisp black linen shirt, slightly unbuttoned at the top, paired with tailored black trousers. His hands rest in his pockets, giving a confident yet relaxed vintage look. The background wall is illuminated with artistic window shadows, creating a cinematic and dramatic atmosphere. His hair is styled in a slightly tousled, natural way, with sunlight catching the edges. The overall aesthetic is cinematic, retro, and editorial with warm tones, subtle grain, and timeless masculine elegance.' aria-label="Copy prompt for Golden Hour Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 3: brand.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="brand.webp" 
+                            alt="Studio portrait of man and woman in modern setting" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Studio Duo Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A studio portrait of a man sitting in a modern armchair and a woman standing behind him, leaning on the chair. The background is a plain, light grey or white. The man is wearing a black t-shirt, ripped black jeans, and light-colored sneakers, with his hand on his chin. The woman is wearing a cream-colored long-sleeved blouse and beige trousers, with long dark wavy hair. Both are looking directly at the camera with a neutral or slightly serious expression. The lighting is soft and even, typical of a professional studio setup."
+                            </div>
+                            <button class="copy-btn" data-prompt='A studio portrait of a man sitting in a modern armchair and a woman standing behind him, leaning on the chair. The background is a plain, light grey or white. The man is wearing a black t-shirt, ripped black jeans, and light-colored sneakers, with his hand on his chin. The woman is wearing a cream-colored long-sleeved blouse and beige trousers, with long dark wavy hair. Both are looking directly at the camera with a neutral or slightly serious expression. The lighting is soft and even, typical of a professional studio setup.' aria-label="Copy prompt for Studio Duo Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
 
-   
-                 <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="chasma.webp" width="380" alt="Text-to-image AI generator demo" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>  "A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background."
-                   </div>
-                        <button class="copy-btn" data-prompt= "A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background."
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                                </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                         
-                         <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="brand.webp" width="380" alt=" Gemini AI-generated digital art of [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong> "A studio portrait of a man sitting in a modern armchair and a woman standing behind him, leaning on the chair. The background is a plain, light grey or white. The man is wearing a black t-shirt, ripped black jeans, and light-colored sneakers, with his hand on his chin. The woman is wearing a cream-colored long-sleeved blouse and beige trousers, with long dark wavy hair. Both are looking directly at the camera with a neutral or slightly serious expression. The lighting is soft and even, typical of a professional studio setup."
-Feel free to adjust the details of the clothing, hairstyles, and expressions to match your specific image.
-                   </div>
-                        <button class="copy-btn" data-prompt= "A studio portrait of a man sitting in a modern armchair and a woman standing behind him, leaning on the chair. The background is a plain, light grey or white. The man is wearing a black t-shirt, ripped black jeans, and light-colored sneakers, with his hand on his chin. The woman is wearing a cream-colored long-sleeved blouse and beige trousers, with long dark wavy hair. Both are looking directly at the camera with a neutral or slightly serious expression. The lighting is soft and even, typical of a professional studio setup."
-Feel free to adjust the details of the clothing, hairstyles, and expressions to match your specific image."
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-                           </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
+					             <!-- Image 4: chasma.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="chasma.webp" 
+                            alt="Smiling young man with sunglasses and grey t-shirt" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Casual Sunglasses Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background."
+                            </div>
+                            <button class="copy-btn" data-prompt='A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background.' aria-label="Copy prompt for Casual Sunglasses Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                                     <!-- Image 4: chasma.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="chasma.webp" 
+                            alt="Smiling young man with sunglasses and grey t-shirt" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Casual Sunglasses Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background."
+                            </div>
+                            <button class="copy-btn" data-prompt='A headshot of a smiling young man with dark, styled hair and a short beard, wearing sunglasses, a light grey t-shirt, and a black jacket, against a blurred grey background.' aria-label="Copy prompt for Casual Sunglasses Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 5: diwali.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="diwali.jpg" 
+                            alt="Indian woman in traditional red festive attire holding diya thali" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Diwali Celebration</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A beautiful young Indian woman in traditional festive attire, wearing a red stylish sleeveless blouse and a cream lehenga with bright red floral prints. She is sitting gracefully, holding a decorated brass thali filled with lit diyas (oil lamps) in both hands. Her head is slightly tilted, with a gentle smile and expressive eyes looking towards the camera. She has long wavy hair styled to one side, adorned with a maang tikka, earrings, and golden bangles. The background is softly blurred with traditional elements."
+                            </div>
+                            <button class="copy-btn" data-prompt='A beautiful young Indian woman in traditional festive attire, wearing a red stylish sleeveless blouse and a cream lehenga with bright red floral prints. She is sitting gracefully, holding a decorated brass thali filled with lit diyas (oil lamps) in both hands. Her head is slightly tilted, with a gentle smile and expressive eyes looking towards the camera. She has long wavy hair styled to one side, adorned with a maang tikka, earrings, and golden bangles. The background is softly blurred with traditional elements.' aria-label="Copy prompt for Diwali Celebration">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 6: edt.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="edt.webp" 
+                            alt="Realistic figurine on computer desk with packaging" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Collector's Figurine</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations."
+                            </div>
+                            <button class="copy-btn" data-prompt='Create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is a 3D modeling process of this figurine. Next to the computer screen is a toy packaging box, designed in a style reminiscent of high-quality collectible figures, printed with original artwork. The packaging features two-dimensional flat illustrations.' aria-label="Copy prompt for Collector's Figurine">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                      <!-- Image 7: film.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="film.webp" 
+                            alt="Man in black suit surrounded by fans and paparazzi" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Celebrity Scene</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Wide-angle GoPro-style shot from a high, symmetrical bird's-eye perspective. [Reference man from the photo] stands in black sunglasses and a sleek black suit, looking casually into the camera while holding his face with his index finger and thumb in a confident gesture. Around him, glamorous supermodels and enthusiastic fans reach out, touching his arms and shoulders, enhancing his magnetic presence. Below the frame, paparazzi flashes and crowded journalists with cameras create a chaotic yet dramatic atmosphere. The ultra-wide GoPro lens exaggerates perspective."
+                            </div>
+                            <button class="copy-btn" data-prompt='Wide-angle GoPro-style shot from a high, symmetrical bird's-eye perspective. [Reference man from the photo] stands in black sunglasses and a sleek black suit, looking casually into the camera while holding his face with his index finger and thumb in a confident gesture. Around him, glamorous supermodels and enthusiastic fans reach out, touching his arms and shoulders, enhancing his magnetic presence. Below the frame, paparazzi flashes and crowded journalists with cameras create a chaotic yet dramatic atmosphere. The ultra-wide GoPro lens exaggerates perspective.' aria-label="Copy prompt for Celebrity Scene">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+	</article>
+	                    <!-- Image 8: girl.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="girl.jpg" 
+                            alt="Young woman in black off-shoulder outfit holding red rose" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Elegant Rose Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "ultra-realistic portrait of a young woman in an off-shoulder black outfit, holding a single red rose. She gazes slightly upward with a dreamy, thoughtful expression. Soft circular spotlight on the wall behind her creates dramatic shadows and a stylish editorial mood. Ultra HD, sharp details, cinematic fashion photography aesthetic. Aspect ratio: 9:16 (vertical)."
+                            </div>
+                            <button class="copy-btn" data-prompt='ultra-realistic portrait of a young woman in an off-shoulder black outfit, holding a single red rose. She gazes slightly upward with a dreamy, thoughtful expression. Soft circular spotlight on the wall behind her creates dramatic shadows and a stylish editorial mood. Ultra HD, sharp details, cinematic fashion photography aesthetic. Aspect ratio: 9:16 (vertical).' aria-label="Copy prompt for Elegant Rose Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    <!-- Image 9: habibi -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="habibi" 
+                            alt="Woman in traditional white hijab with golden embroidery and turquoise necklace" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Traditional Elegance</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A portrait of me wearing a traditional white hijab with golden and lace embroidery along the borders, styled neatly around the head and shoulders. I am smiling softly, with natural makeup, red lipstick, and bright eyes. I am wearing an elegant gold necklace with a large turquoise green gemstone pendant. Background is filled with red roses and green leaves, softly blurred to highlight me. High-resolution, realistic, vibrant, professional photography style."
+                            </div>
+                            <button class="copy-btn" data-prompt='A portrait of me wearing a traditional white hijab with golden and lace embroidery along the borders, styled neatly around the head and shoulders. I am smiling softly, with natural makeup, red lipstick, and bright eyes. I am wearing an elegant gold necklace with a large turquoise green gemstone pendant. Background is filled with red roses and green leaves, softly blurred to highlight me. High-resolution, realistic, vibrant, professional photography style.' aria-label="Copy prompt for Traditional Elegance">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 10: hand.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="hand.jpg" 
+                            alt="Rugged man with scorpion tattoo and layered chains" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Urban Style Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A rugged, stylish man with the face from the uploaded image, keeping the facial features exactly the same, and voluminous wavy hair styled back, wearing round dark sunglasses and a white open-collar shirt. He has a prominent black scorpion tattoo on the left side of his neck and wears layered black chains around his neck. The lighting is soft and warm, highlighting his side profile with a serious expression. The background is an indoor setting with blurred wooden wardrobe doors, creating a casual, intimate atmosphere."
+                            </div>
+                            <button class="copy-btn" data-prompt='A rugged, stylish man with the face from the uploaded image, keeping the facial features exactly the same, and voluminous wavy hair styled back, wearing round dark sunglasses and a white open-collar shirt. He has a prominent black scorpion tattoo on the left side of his neck and wears layered black chains around his neck. The lighting is soft and warm, highlighting his side profile with a serious expression. The background is an indoor setting with blurred wooden wardrobe doors, creating a casual, intimate atmosphere.' aria-label="Copy prompt for Urban Style Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 11: hasband.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="hasband.webp" 
+                            alt="Couple studio portrait in modern setting" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Modern Couple Portrait</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A studio portrait of a young man and woman. The man is seated in a light-colored armchair, wearing a black t-shirt and ripped black jeans, with light-colored sneakers. He has dark hair and a beard, and is looking slightly to his right with his hand resting on his temple. The woman is seated on the floor in front of and to the right of the man, wearing a ribbed cream-colored top and light beige trousers. She has long, dark, wavy hair and is looking intently to her right. The background is a plain white or light grey. The lighting is soft and even, highlighting both subjects clearly."
+                            </div>
+                            <button class="copy-btn" data-prompt='A studio portrait of a young man and woman. The man is seated in a light-colored armchair, wearing a black t-shirt and ripped black jeans, with light-colored sneakers. He has dark hair and a beard, and is looking slightly to his right with his hand resting on his temple. The woman is seated on the floor in front of and to the right of the man, wearing a ribbed cream-colored top and light beige trousers. She has long, dark, wavy hair and is looking intently to her right. The background is a plain white or light grey. The lighting is soft and even, highlighting both subjects clearly.' aria-label="Copy prompt for Modern Couple Portrait">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    <!-- Image 12: hourse.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="hourse.webp" 
+                            alt="Man crouching with black horse in snow-covered mountains" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Mountain Adventure</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Ultra realistic, 8K resolution cinematic image of a person crouching beside a powerful black horse in a snow-covered mountainous landscape. Face with the face from the uploaded image, keeping the facial features exactly the same. wavy hair, and wears dark sunglasses, a cozy black sweater, grey cargo pants, and black boots. He crouches with one knee bent, holding the reins of the horse with a relaxed yet confident posture. The horse is muscular, with a glossy jet-black coat, flowing mane, and expressive eyes, wearing a simple leather halter. Snow blankets the ground with footprints and scattered rocks visible. In the background, soft-focus snow-covered hills, pine trees, and distant mountain peaks stretch under a clear blue sky. Snowflakes gently fall around them, adding depth and softness to the scene. The lighting is soft and natural, highlighting details like the texture of the snow, fabric folds, and hair strands. The overall mood is calm, adventurous, and majestic, evoking a sense of freedom and harmony with nature."
+                            </div>
+                            <button class="copy-btn" data-prompt='Ultra realistic, 8K resolution cinematic image of a person crouching beside a powerful black horse in a snow-covered mountainous landscape. Face with the face from the uploaded image, keeping the facial features exactly the same. wavy hair, and wears dark sunglasses, a cozy black sweater, grey cargo pants, and black boots. He crouches with one knee bent, holding the reins of the horse with a relaxed yet confident posture. The horse is muscular, with a glossy jet-black coat, flowing mane, and expressive eyes, wearing a simple leather halter. Snow blankets the ground with footprints and scattered rocks visible. In the background, soft-focus snow-covered hills, pine trees, and distant mountain peaks stretch under a clear blue sky. Snowflakes gently fall around them, adding depth and softness to the scene. The lighting is soft and natural, highlighting details like the texture of the snow, fabric folds, and hair strands. The overall mood is calm, adventurous, and majestic, evoking a sense of freedom and harmony with nature.' aria-label="Copy prompt for Mountain Adventure">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
 
-
-       
-                 <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="hasband.webp" width="380" alt=" Gemini AI-created illustration of [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>  "A studio portrait of a young man and woman. The man is seated in a light-colored armchair, wearing a black t-shirt and ripped black jeans, with light-colored sneakers. He has dark hair and a beard, and is looking slightly to his right with his hand resting on his temple. The woman is seated on the floor in front of and to the right of the man, wearing a ribbed cream-colored top and light beige trousers. She has long, dark, wavy hair and is looking intently to her right. The background is a plain white or light grey. The lighting is soft and even, highlighting both subjects clearly."
-                   </div>
-                        <button class="copy-btn" data-prompt= "A studio portrait of a young man and woman. The man is seated in a light-colored armchair, wearing a black t-shirt and ripped black jeans, with light-colored sneakers. He has dark hair and a beard, and is looking slightly to his right with his hand resting on his temple. The woman is seated on the floor in front of and to the right of the man, wearing a ribbed cream-colored top and light beige trousers. She has long, dark, wavy hair and is looking intently to her right. The background is a plain white or light grey. The lighting is soft and even, highlighting both subjects clearly."                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                                </div>
-                                    
-              </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-                            
-<!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="penting.webp" width="380" alt="Man with Yamaha R15 bike" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>   "Wearing the same outfit. He leans casually against a light-gray wall, hands in pockets, one leg crossed. On the wall, add a bold black-and-white vector portrait of him with modern geometric style. Below it, write.".              </div>
-                        <button class="copy-btn" data-prompt= "Wearing the same outfit. He leans casually against a light-gray wall, hands in pockets, one leg crossed. On the wall, add a bold black-and-white vector portrait of him with modern geometric style. Below it, write."
-                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-
-
-       
-                 <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="iphone.webp" width="380" alt="Gemini Generated artwork: [prompt description]
-·" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>  "Transform this updated selfie into a premium looking bathroom selfie. The bathroom should appear contemporary with polished tiles, good lighting and a mirror in the background. The person must be holding the iPhone 17 Pro Max (second picture), making the phone stand out as reflective, bold and high-end. The selfie should feel natural but with a touch of elegance keeping the focus on the person and iPhone while the background remains non-distracting."                   </div>
-                        <button class="copy-btn" data-prompt=   "Transform this updated selfie into a premium looking bathroom selfie. The bathroom should appear contemporary with polished tiles, good lighting and a mirror in the background. The person must be holding the iPhone 17 Pro Max (second picture), making the phone stand out as reflective, bold and high-end. The selfie should feel natural but with a touch of elegance keeping the focus on the person and iPhone while the background remains non-distracting."                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                                </div> 
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-
-   <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="hourse.webp" width="380" alt=" Gemini AI art creation: [prompt description]" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>    "Ultra realistic, 8K resolution cinematic image of a person crouching beside a powerful black horse in a snow-covered mountainous landscape. Face with the face from the uploaded image, keeping the facial features exactly the same. wavy hair, and wears dark sunglasses, a cozy black sweater, grey cargo pants, and black boots. He crouches with one knee bent, holding the reins of the horse with a relaxed yet confident posture. The horse is muscular, with a glossy jet-black coat, flowing mane, and expressive eyes, wearing a simple leather halter. Snow blankets the ground with footprints and scattered rocks visible. In the background, soft-focus snow-covered hills, pine trees, and distant mountain peaks stretch under a clear blue sky. Snowflakes gently fall around them, adding depth and softness to the scene. The lighting is soft and natural, highlighting details like the texture of the snow, fabric folds, and hair strands. The overall mood is calm, adventurous, and majestic, evoking a sense of freedom and harmony with nature."         </div>
-                        <button class="copy-btn" data-prompt=  "Ultra realistic, 8K resolution cinematic image of a person crouching beside a powerful black horse in a snow-covered mountainous landscape. Face with the face from the uploaded image, keeping the facial features exactly the same. wavy hair, and wears dark sunglasses, a cozy black sweater, grey cargo pants, and black boots. He crouches with one knee bent, holding the reins of the horse with a relaxed yet confident posture. The horse is muscular, with a glossy jet-black coat, flowing mane, and expressive eyes, wearing a simple leather halter. Snow blankets the ground with footprints and scattered rocks visible. In the background, soft-focus snow-covered hills, pine trees, and distant mountain peaks stretch under a clear blue sky. Snowflakes gently fall around them, adding depth and softness to the scene. The lighting is soft and natural, highlighting details like the texture of the snow, fabric folds, and hair strands. The overall mood is calm, adventurous, and majestic, evoking a sense of freedom and harmony with nature."                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-				</section>
-
-	<!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="loin.webp" width="380" alt="Gemini Prompts" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>   "Close-up shot of a handsome young man that resembles my uploaded photo, fashion model wearing a soft and luxurious fur coat, hair exactly like in my uploaded photo, standing in a fashion-forward pose. Two lions seated on both sides, elegant muted backdrop with a luxury fashion magazine look, rich textures, beautiful subtle shadow play, cinematic lighting, Vogue-inspired styling, masterpiece-level detail. -ar 2:3 -v 6-s 750-q 2.5-c 15."        </div>
-                        <button class="copy-btn" data-prompt=  "Close-up shot of a handsome young man that resembles my uploaded photo, fashion model wearing a soft and luxurious fur coat, hair exactly like in my uploaded photo, standing in a fashion-forward pose. Two lions seated on both sides, elegant muted backdrop with a luxury fashion magazine look, rich textures, beautiful subtle shadow play, cinematic lighting, Vogue-inspired styling, masterpiece-level detail. -ar 2:3 -v 6-s 750-q 2.5-c 15."          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-
-
-       
-                 <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="pencil.webp" width="380" alt="Gemini prompts" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>   "Create a realistic black and white pencil sketch of a man with a beard and voluminous hair, similar in style to the provided image. He should be smiling slightly, looking directly forward. Include a pencil in the foreground, angled similarly to the example. The sketch should have a signature on the bottom right."           </div>
-                        <button class="copy-btn" data-prompt=  "Create a realistic black and white pencil sketch of a man with a beard and voluminous hair, similar in style to the provided image. He should be smiling slightly, looking directly forward. Include a pencil in the foreground, angled similarly to the example. The sketch should have a signature on the bottom right."      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                                </div> 
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-
-  <!-- Image 7 -->
-                <div class="gallery-item">
-                    <img src="film.webp" width="380" alt="Gemini Prompts" class="gallery-image">
-                    <div class="gallery-content">
-                        <h3 class="gallery-title">       </h3>
-                        <div class="gallery-prompt">
-                            <strong>Prompt:</strong>     "Wide-angle GoPro-style shot from a high, symmetrical bird's-eye perspective. [Reference man from the photo] stands in black sunglasses and a sleek black suit, looking casually into the camera.
-
-while holding his face with his index finger and thumb in a confident gesture.
-
-Around him, glamorous supermodels and enthusiastic fans reach out, touching his arms and shoulders, enhancing his magnetic presence. Below the frame, P paparazzi flashes and crowded j journalists with cameras create a chaotic yet dramatic atmosphere.
-
-The ultra-wide GoPro lens exaggerates erspective, making the scene feel immersive, dynamic, and larger-than-life like a raw, energetic capture from the middle $ celebrity madness."     </div>
-                        <button class="copy-btn" data-prompt= "Wide-angle GoPro-style shot from a high, symmetrical bird's-eye perspective. [Reference man from the photo] stands in black sunglasses and a sleek black suit, looking casually into the camera.
-
-while holding his face with his index finger and thumb in a confident gesture.
-
-Around him, glamorous supermodels and enthusiastic fans reach out, touching his arms and shoulders, enhancing his magnetic presence. Below the frame, P paparazzi flashes and crowded j journalists with cameras create a chaotic yet dramatic atmosphere.
-
-The ultra-wide GoPro lens exaggerates erspective, making the scene feel immersive, dynamic, and larger-than-life like a raw, energetic capture from the middle $ celebrity madness."          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
-                                <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
-                            </svg>
-                            Copy Prompt
-                        </button>
-                    </div>
-        </div>
-                                
-                                
-        <div>
-                    <div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script>
-</div><script type="text/javascript">
-	atOptions = {
-		'key' : '70117e21f863d919167763115296cc70',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="//www.highperformanceformat.com/70117e21f863d919167763115296cc70/invoke.js"></script></div>
-         
-                </div>
-                <div>                          
-                </section>
-    
-                     <script type='text/javascript' src='//pl27752111.revenuecpmgate.com/99/f8/18/99f81807526f7d3fd677beb496c03be9.js'></script> <div>
-                    <div><script type='text/javascript' src='//pl27752145.revenuecpmgate.com/f7/4d/01/f74d01da8b983db2d8d81e452f44e093.js'></script> </div>
-
-	
-                                    
-
-	
-		<section class="keywords-section">
-            <h2>Relevant Keywords for SEO</h2>
-            <div class="keywords">
-                <span class="keyword">Gemini AI prompts 2025</span>
-                <span class="keyword">Viral AI image prompts</span>
-                <span class="keyword">ChatGPT AI creative prompts</span>
-                <span class="keyword">Stunning visuals AI</span>
-                <span class="keyword">Gorgeous look AI images</span>
-                <span class="keyword">AI-generated couple photos</span>
-                <span class="keyword">Retro style portraits AI</span>
-                <span class="keyword">Cinematic photography AI</span>
-                <span class="keyword">AI fashion photography prompts
-				</span>                
-			    <span class="keyword">Social media viral AI content</span>
-        <!DOCTYPE html>
-
-<html lang="hi">
-<head>
-	
-				<!-- **मेटा डिस्क्रिप्शन** -->
-<meta name="description" content="Google Gemini AI के लिए हिंदी में पूरी प्रॉम्प्ट कीवर्ड गाइड। सीखें हिंदी में Gemini प्रॉम्प्ट कैसे खोजें, बेस्ट कीवर्ड कॉम्बिनेशन, और प्रभावी प्रॉम्प्ट इंजीनियरिंग टिप्स। उत्पादकता, लेखन और कोडिंग के लिए विशेष प्रॉम्प्ट।">
-
-<!-- **अतिरिक्त मेटा टैग** -->
-<meta name="keywords" content="Gemini AI प्रॉम्प्ट हिंदी, जेमिनी एआई कीवर्ड, Google Gemini हिंदी गाइड, प्रॉम्प्ट इंजीनियरिंग हिंदी, जेमिनी एआई उदाहरण, AI प्रॉम्प्ट हिंदी में, Gemini AI टिप्स हिंदी">
-<meta name="author" content="AI और टेक गाइड">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="UTF-8">
-		</div>
-	</head>
-<body>
-	
-
-			
-        </section>
-        
-        <section class="conclusion">
-            <h2>निष्कर्ष</h2>
-            <p>दोस्तों, ये 20+ Viral Gemini AI Prompts आपके लिए एक ready-to-use toolkit की तरह हैं। बस copy-paste करें और Gemini AI, ChatGPT या MidJourney में डालें। मिनटों में आपको gorgeous, cinematic और viral-ready images मिल जाएंगी।</p>
-            <p>यदि आप social media influencer, content creator या photographer हैं, तो इन prompts से आपकी Instagram, Pinterest और TikTok posts जरूर standout होंगी।</p>
-        </section>
-				</div>
-									
-                                                    
-                
-  
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Gemini Prompt</h2>
-                    <p>Welcome to Gemini Prompt, your ultimate destination for exploring the creative possibilities of AI image generation. Our platform showcases stunning visuals created using Gemini AI, along with the exact prompts that brought them to life.</p>
-                    <p>We believe that understanding how to craft effective prompts is key to unlocking the full potential of AI art. That's why we provide detailed examples and insights to help you create your own amazing images.</p>
-                    <p>Whether you're an artist, designer, or simply curious about AI creativity, our gallery offers inspiration and practical guidance for your own AI art journey.</p>
-                    <a href="#how-it-works" class="cta-button">Learn How It Works</a>
-                </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="AI Art Creation">
+					                    
+                    <!-- Image 13: iphone.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="iphone.webp" 
+                            alt="Person holding iPhone 17 Pro Max in modern bathroom" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Premium Selfie</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Transform this updated selfie into a premium looking bathroom selfie. The bathroom should appear contemporary with polished tiles, good lighting and a mirror in the background. The person must be holding the iPhone 17 Pro Max (second picture), making the phone stand out as reflective, bold and high-end. The selfie should feel natural but with a touch of elegance keeping the focus on the person and iPhone while the background remains non-distracting."
+                            </div>
+                            <button class="copy-btn" data-prompt='Transform this updated selfie into a premium looking bathroom selfie. The bathroom should appear contemporary with polished tiles, good lighting and a mirror in the background. The person must be holding the iPhone 17 Pro Max (second picture), making the phone stand out as reflective, bold and high-end. The selfie should feel natural but with a touch of elegance keeping the focus on the person and iPhone while the background remains non-distracting.' aria-label="Copy prompt for Premium Selfie">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 14: king.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="king.webp" 
+                            alt="Stylish man in red outfit sitting in red armchair" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Red Royalty</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A stylish young man wearing sunglasses, a patterned red shirt, and red pants, sitting confidently in a red armchair. The background is solid red, and the name "SUFIYAN" is written in bold, red capital letters at the top."
+                            </div>
+                            <button class="copy-btn" data-prompt='A stylish young man wearing sunglasses, a patterned red shirt, and red pants, sitting confidently in a red armchair. The background is solid red, and the name "SUFIYAN" is written in bold, red capital letters at the top.' aria-label="Copy prompt for Red Royalty">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                   <!-- Image 15: loin.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="loin.webp" 
+                            alt="Fashion model with fur coat and lions" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Luxury Fashion</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Close-up shot of a handsome young man that resembles my uploaded photo, fashion model wearing a soft and luxurious fur coat, hair exactly like in my uploaded photo, standing in a fashion-forward pose. Two lions seated on both sides, elegant muted backdrop with a luxury fashion magazine look, rich textures, beautiful subtle shadow play, cinematic lighting, Vogue-inspired styling, masterpiece-level detail. -ar 2:3 -v 6-s 750-q 2.5-c 15."
+                            </div>
+                            <button class="copy-btn" data-prompt='Close-up shot of a handsome young man that resembles my uploaded photo, fashion model wearing a soft and luxurious fur coat, hair exactly like in my uploaded photo, standing in a fashion-forward pose. Two lions seated on both sides, elegant muted backdrop with a luxury fashion magazine look, rich textures, beautiful subtle shadow play, cinematic lighting, Vogue-inspired styling, masterpiece-level detail. -ar 2:3 -v 6-s 750-q 2.5-c 15.' aria-label="Copy prompt for Luxury Fashion">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 16: main.png -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="main.png" 
+                            alt="Person leaning against dark urban stone wall" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Urban Style</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Create a photo of me posing against a dark, urban background with stone and brick elements, similar to the provided image. I should be leaning against a low stone wall or structure, looking towards the camera side with a confidence. I should be wearing a black loose Shirt, black cargos, and black and white colour shoes. The lighting should be natural and slightly diffused, giving a moody yet clear feel. The overall style should be sophisticated and modern. left hand touching the hair."
+                            </div>
+                            <button class="copy-btn" data-prompt='Create a photo of me posing against a dark, urban background with stone and brick elements, similar to the provided image. I should be leaning against a low stone wall or structure, looking towards the camera side with a confidence. I should be wearing a black loose Shirt, black cargos, and black and white colour shoes. The lighting should be natural and slightly diffused, giving a moody yet clear feel. The overall style should be sophisticated and modern. left hand touching the hair.' aria-label="Copy prompt for Urban Style">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 17: man.png -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="man.png" 
+                            alt="Young person standing on tree trunk holding DSLR camera" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Outdoor Photographer</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A young person standing confidently outdoors on a large tree trunk, holding a professional DSLR camera in one hand. Wearing a stylish black outfit: loose half-sleeve black t-shirt with a design on the chest, slim-fit black pants, and black sneakers with white soles. Hairstyle is voluminous and neatly styled. The background is softly blurred with green and white tones, creating a bokeh effect. The photo has a smooth, edited, high-definition look, with slightly enhanced colors and a polished, fashion-style portrait effect."
+                            </div>
+                            <button class="copy-btn" data-prompt='A young person standing confidently outdoors on a large tree trunk, holding a professional DSLR camera in one hand. Wearing a stylish black outfit: loose half-sleeve black t-shirt with a design on the chest, slim-fit black pants, and black sneakers with white soles. Hairstyle is voluminous and neatly styled. The background is softly blurred with green and white tones, creating a bokeh effect. The photo has a smooth, edited, high-definition look, with slightly enhanced colors and a polished, fashion-style portrait effect.' aria-label="Copy prompt for Outdoor Photographer">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                 <!-- Image 18: mean.png -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="mean.png" 
+                            alt="Person in red wine shirt with white rose in windy setting" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">90s Movie Scene</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Create a retro vintage grainy but bright image of the reference picture but draped in a perfect red wine color Pinteresty aesthetic retro shirt with white pant and holding a white rose flower in hands. It must feel like a 90s movie and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on her face is moody, calm yet happy and introspective.image size 4:5"
+                            </div>
+                            <button class="copy-btn" data-prompt='Create a retro vintage grainy but bright image of the reference picture but draped in a perfect red wine color Pinteresty aesthetic retro shirt with white pant and holding a white rose flower in hands. It must feel like a 90s movie and romanticising windy environment. The boy is standing against a solid wall deep shadows and contrast drama creating a mysterious and artistic atmosphere where the lighting is warm with a golden tones of evoking a sunset or golden hour glow. The background is minimalist and slightly textured the expression on her face is moody, calm yet happy and introspective.image size 4:5' aria-label="Copy prompt for 90s Movie Scene">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                                        <!-- Image 19: mn.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="mn.jpg" 
+                            alt="Young Indian man in white linen shirt against textured wall" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Vintage Editorial</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in soft golden-hour sunlight that creates dramatic warm shadows. He wears a crisp white linen shirt, slightly unbuttoned at the top, paired with high-waisted cream trousers. His hands rest in his pockets, giving a relaxed yet confident retro look. His hair is styled in a tousled, natural way, with sunlight catching the edges. The aesthetic is cinematic, vintage, and editorial, with warm tones, soft grain, and timeless masculine elegance."
+                            </div>
+                            <button class="copy-btn" data-prompt='Ultra-realistic 4K portrait of a young Indian man, keeping the uploaded face with 100% accuracy. He is standing casually against a plain textured wall, bathed in soft golden-hour sunlight that creates dramatic warm shadows. He wears a crisp white linen shirt, slightly unbuttoned at the top, paired with high-waisted cream trousers. His hands rest in his pockets, giving a relaxed yet confident retro look. His hair is styled in a tousled, natural way, with sunlight catching the edges. The aesthetic is cinematic, vintage, and editorial, with warm tones, soft grain, and timeless masculine elegance.' aria-label="Copy prompt for Vintage Editorial">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 20: pencil.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="pencil.webp" 
+                            alt="Black and white pencil sketch of bearded man" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Pencil Sketch Art</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Create a realistic black and white pencil sketch of a man with a beard and voluminous hair, similar in style to the provided image. He should be smiling slightly, looking directly forward. Include a pencil in the foreground, angled similarly to the example. The sketch should have a signature on the bottom right."
+                            </div>
+                            <button class="copy-btn" data-prompt='Create a realistic black and white pencil sketch of a man with a beard and voluminous hair, similar in style to the provided image. He should be smiling slightly, looking directly forward. Include a pencil in the foreground, angled similarly to the example. The sketch should have a signature on the bottom right.' aria-label="Copy prompt for Pencil Sketch Art">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 21: penting.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="penting.webp" 
+                            alt="Man leaning against wall with vector portrait artwork" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Modern Wall Art</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Wearing the same outfit. He leans casually against a light-gray wall, hands in pockets, one leg crossed. On the wall, add a bold black-and-white vector portrait of him with modern geometric style. Below it, write."
+                            </div>
+                            <button class="copy-btn" data-prompt='Wearing the same outfit. He leans casually against a light-gray wall, hands in pockets, one leg crossed. On the wall, add a bold black-and-white vector portrait of him with modern geometric style. Below it, write.' aria-label="Copy prompt for Modern Wall Art">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                   <!-- Image 22: pnt.jpg -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="pnt.jpg" 
+                            alt="Realistic figurine and man cleaning it on computer desk" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Collector's Scene</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "A hyper-realistic scene featuring a 1/5 scale commercialized figurine of the man from the uploaded photo. The figurine is realistic, posed standing on a round transparent acrylic base, placed on a computer desk. Next to the desk is the real-life version of the same man wearing the same attire as in the reference photo, cleaning the figurine carefully with a fine brush. The environment is a modern styled studio room, brightly lit, with shelves in the background holding a collection of toys."
+                            </div>
+                            <button class="copy-btn" data-prompt='A hyper-realistic scene featuring a 1/5 scale commercialized figurine of the man from the uploaded photo. The figurine is realistic, posed standing on a round transparent acrylic base, placed on a computer desk. Next to the desk is the real-life version of the same man wearing the same attire as in the reference photo, cleaning the figurine carefully with a fine brush. The environment is a modern styled studio room, brightly lit, with shelves in the background holding a collection of toys.' aria-label="Copy prompt for Collector's Scene">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
+                    <!-- Image 23: reyaj.webp -->
+                    <article class="gallery-item" role="article">
+                        <img 
+                            src="reyaj.webp" 
+                            alt="Young man in maroon blazer with text overlay" 
+                            class="gallery-image lazy-load"
+                            width="380"
+                            height="507"
+                            loading="lazy"
+                        >
+                        <div class="gallery-content">
+                            <h3 class="gallery-title">Social Media Ready</h3>
+                            <div class="gallery-prompt">
+                                <strong>Prompt:</strong> "Create an edited portrait of a young man wearing a stylish maroon blazer and a cream shirt, with fashionable hair and a soft, professional background. Enhance the colors for a vibrant look, and add subtle text overlays near the bottom: 'PROFACT BEAUTI - Innocent look Boy'. Maintain a modern, social-media-ready aesthetic."
+                            </div>
+                            <button class="copy-btn" data-prompt='Create an edited portrait of a young man wearing a stylish maroon blazer and a cream shirt, with fashionable hair and a soft, professional background. Enhance the colors for a vibrant look, and add subtle text overlays near the bottom: "PROFACT BEAUTI - Innocent look Boy". Maintain a modern, social-media-ready aesthetic.' aria-label="Copy prompt for Social Media Ready">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 013.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0121 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 017.5 16.125V3.375z" />
+                                    <path d="M15 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0017.25 7.5h-1.875A.375.375 0 0115 7.125V5.25zM4.875 6H6v10.125A3.375 3.375 0 009.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V7.875C3 6.839 3.84 6 4.875 6z" />
+                                </svg>
+                                Copy Prompt
+                            </button>
+                        </div>
+                    </article>
+                    
                 </div>
             </div>
-        </div>
-    </section>
-    
-          
-    
-    <!-- How It Works Section -->
-    <section class="how-it-works" id="how-it-works">
-        <div class="container">
-            <h2 class="section-title">How It Works</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-icon">💡</div>
-                    <h3>Find Inspiration</h3>
-                    <p>Browse our gallery of AI-generated images and find styles that inspire you.</p>
-                </div>
-                <div class="step">
-                    <div class="step-icon">📋</div>
-                    <h3>Copy the Prompt</h3>
-                    <p>Use our copy button to easily copy the exact prompt used to create each image.</p>
-                </div>
-                <div class="step">
-                    <div class="step-icon">🎨</div>
-                    <h3>Create Your Own</h3>
-                    <p>Use the prompts in Gemini AI or modify them to create your own unique images.</p>
+		</section>
+		            <!-- About Section -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 id="about-title">About Gemini Prompt</h2>
+                        <p>Welcome to Gemini Prompt, your ultimate destination for exploring the creative possibilities of AI image generation. Our platform showcases stunning visuals created using Gemini AI, along with the exact prompts that brought them to life.</p>
+                        <p>We believe that understanding how to craft effective prompts is key to unlocking the full potential of AI art. That's why we provide detailed examples and insights to help you create your own amazing images.</p>
+                        <p>Whether you're an artist, designer, or simply curious about AI creativity, our gallery offers inspiration and practical guidance for your own AI art journey.</p>
+                        <a href="#how-it-works" class="cta-button">Learn How It Works</a>
+                    </div>
+                    <div class="about-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
+                            alt="AI Art Creation process visualization"
+                            loading="lazy"
+                            width="600"
+                            height="400"
+                        >
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer>
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works" aria-labelledby="how-it-works-title">
+            <div class="container">
+                <h2 id="how-it-works-title" class="section-title">How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-icon">1</div>
+                        <h3>Choose a Prompt</h3>
+                        <p>Browse our collection of proven AI art prompts</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">2</div>
+                        <h3>Copy & Generate</h3>
+                        <p>Copy the prompt and use it with your preferred AI tool</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">3</div>
+                        <h3>Customize</h3>
+                        <p>Modify the prompt to create your unique artwork</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>Gemini Prompt</h3>
-                    <p>Your gateway to AI creativity and prompt engineering.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#how-it-works">How It Works</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Connect</h3>
-                    <ul>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Discord</a></li>
-                    </ul>
+                    <p>AI Image Generation | Gemini AI Prompts | Artificial Intelligence Art</p>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2025 Gemini Prompt. All rights reserved.</p>
-            </div>
+            <p>&copy; 2024 Gemini Prompt. All rights reserved.</p>
         </div>
     </footer>
 
-    <script>
-        // Copy prompt functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const copyButtons = document.querySelectorAll('.copy-btn');
-            
-            copyButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const promptText = this.getAttribute('data-prompt');
-                    
-                    // Copy to clipboard
-                    navigator.clipboard.writeText(promptText).then(() => {
-                        // Change button text temporarily
-                        const originalText = this.innerHTML;
-                        this.innerHTML = `
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-                                <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clip-rule="evenodd" />
-                            </svg>
-                            Copied!
-                        `;
-                        this.classList.add('copied');
-                        
-                        // Reset button after 2 seconds
-                        setTimeout(() => {
-                            this.innerHTML = originalText;
-                            this.classList.remove('copied');
-                        }, 2000);
-                    }).catch(err => {
-                        console.error('Failed to copy text: ', err);
-                        alert('Failed to copy prompt. Please try again.');
-                    });
-                });
-            });
-        });
-    </script>
-</body>
-</html>
-
-				                <p>AI Image Generation | Gemini AI Prompts | Artificial Intelligence Art</p>
-            </div>
-        </div>
-    </footer>
-    
     <!-- Schema.org Structured Data for Images -->
     <script type="application/ld+json">
     {
@@ -1523,17 +860,127 @@ The ultra-wide GoPro lens exaggerates erspective, making the scene feel immersiv
       "description": "Gallery of AI-generated images created with Gemini AI",
       "url": "https://geminiprompt.com/gallery",
       "image": [
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//bike.jpg",
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//boy.jpg",
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//man.jpg",
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//main.jpg",
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//mean.jpg",
-        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com//girl.jpg"
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/bike.png",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/boy.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/brand.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/chasma.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/diwali.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/edt.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/film.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/girl.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/habibi",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/hand.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/hasband.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/hourse.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/iphone.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/king.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/loin.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/main.png",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/man.png",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/mean.png",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/mn.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/pencil.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/penting.webp",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/pnt.jpg",
+        "https://sufiyan-web786.github.io/Gemini-Trend-image-genaration-promt.com/reyaj.webp"
       ]
     }
     </script>
+     <!-- Deferred JavaScript -->
+    <script>
+        // Lazy loading for images
+        document.addEventListener('DOMContentLoaded', function() {
+            const lazyImages = document.querySelectorAll('.lazy-load');
+            
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px',
+                threshold: 0.1
+            });
+            
+            lazyImages.forEach(img => imageObserver.observe(img));
+            
+            // Copy button functionality
+            document.querySelectorAll('.copy-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    const promptText = this.getAttribute('data-prompt');
+                    
+                    navigator.clipboard.writeText(promptText).then(() => {
+                        const originalText = this.innerHTML;
+                        this.innerHTML = `
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M19.916 4.626a.75.75 0 01.208 1.04l-9 13.5a.75.75 0 01-1.154.114l-6-6a.75.75 0 011.06-1.06l5.353 5.353 8.493-12.739a.75.75 0 011.04-.208z" clip-rule="evenodd" />
+                            </svg>
+                            Copied!
+                        `;
+                        this.classList.add('copied');
+                        this.setAttribute('aria-label', 'Prompt copied successfully');
+                        
+                        setTimeout(() => {
+                            this.innerHTML = originalText;
+                            this.classList.remove('copied');
+                            this.setAttribute('aria-label', 'Copy prompt');
+                        }, 2000);
+                    }).catch(err => {
+                        console.error('Failed to copy text: ', err);
+                        // Fallback for older browsers
+                        const textArea = document.createElement('textarea');
+                        textArea.value = promptText;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                        
+                        // Show success message even with fallback
+                        const originalText = this.innerHTML;
+                        this.innerHTML = `Copied!`;
+                        this.classList.add('copied');
+                        setTimeout(() => {
+                            this.innerHTML = originalText;
+                            this.classList.remove('copied');
+                        }, 2000);
+                    });
+                });
+            });
+            
+            // Focus management for accessibility
+            const skipLink = document.querySelector('a[href="#main-content"]');
+            if (skipLink) {
+                skipLink.addEventListener('click', function(e) {
+                    const mainContent = document.getElementById('main-content');
+                    if (mainContent) {
+                        e.preventDefault();
+                        mainContent.setAttribute('tabindex', '-1');
+                        mainContent.focus();
+                        setTimeout(() => mainContent.removeAttribute('tabindex'), 1000);
+                    }
+                });
+            }
+            
+            // Add keyboard navigation for gallery items
+            document.querySelectorAll('.gallery-item').forEach(item => {
+                item.addEventListener('keydown', function(e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        const copyBtn = this.querySelector('.copy-btn');
+                        if (copyBtn) copyBtn.click();
+                    }
+                });
+            });
+        });
+        
+        // Load non-critical CSS
+        window.onload = function() {
+            const link = document.querySelector('link[media="print"]');
+            if (link) link.media = 'all';
+        };
+    </script>
 </body>
-				</html>
-					
-
- 
+</html>
